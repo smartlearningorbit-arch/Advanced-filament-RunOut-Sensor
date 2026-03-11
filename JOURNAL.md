@@ -1,4 +1,21 @@
-# Total Time So far 11.5 HR
+# Total Time So far 12.5 HR
+
+
+# Date/log -  12 March, 2026 / 1.1 hr 
+## CAD DESIGNING
+After everything is completed I start building the Assembly file of the project I export the 3d Model of the PCB And open it on fusion 360 
+then I Start making the case And I finally build the case <br/>
+### CASE ASSEMBLY
+<img width="935" height="665" alt="image" src="https://github.com/user-attachments/assets/8b840fd2-e5a8-4b32-9b81-67730ab519b2" />
+<img width="528" height="511" alt="image" src="https://github.com/user-attachments/assets/cdd82c41-13c7-4de4-8e59-99143523da6a" />
+<img width="654" height="726" alt="image" src="https://github.com/user-attachments/assets/47f5cca4-a744-40b6-bb06-009363a3a14a" />
+
+### What I learn : 
+- How to export the 3d model 
+- Cad designing 
+
+ -----------------------------------------------------------------
+
 
 # Date/log - wednesday, 11 March, 2026 / 5.6 hr 
 ## Systematic + routing
