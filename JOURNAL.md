@@ -1,3 +1,15 @@
+
+# Date/log - wednesday, 11 March, 2026 / 5.6 hr 
+## Systematic + routing
+So after Selected all the component I start connecting the component <br/>
+### Systematic <br/>
+<img width="1190" height="845" alt="SCH_Filament runoff sensor_1-P1_2026-03-12" src="https://github.com/user-attachments/assets/0669222d-4d35-4d96-a5dd-b6252f8adb4d" /> <br/>
+then Routed the PCB it ready take time cuz i want to make it compactact <br/>
+### PCB <br/>
+<img width="621" height="590" alt="image" src="https://github.com/user-attachments/assets/f327bb87-032b-4afd-b7bd-dba2a64fd00b" />
+<img width="882" height="722" alt="image" src="https://github.com/user-attachments/assets/4eaf8852-ea10-4715-8b6d-66a52b9c04a0" />
+
+
 # Date/log - wednesday, 11 March, 2026 / 1.8 hr 
 ## Hardware selection 
 
