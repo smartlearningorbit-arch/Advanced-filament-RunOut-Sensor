@@ -1,4 +1,16 @@
 # Date/log - wednesday, 11 March, 2026 / 1.8 hr 
+## Hardware selection 
+
+- Filament present sensor  <br/> 
+ Photoelectric Infrared Count Slot Sensor Module 10 mm ( Suitable for my model )
+
+- Encoder  <br/> 
+EC11 A basic cheap Rotary encoder ( From manufacture side it have Mechanism which produce click Tactile But for this case it is not needed So I just to remove that spring Mechanism )  
+
+- MCU  <br/> 
+  ESP32 wroom 32D Module the Best cheap Board with Wifi  
+
+# Date/log - wednesday, 11 March, 2026 / 1.8 hr 
 ## Plan
 <img width="707" height="698" alt="image" src="https://github.com/user-attachments/assets/87fea69e-bdf1-4362-b397-723bb61f47f2" /> <br/> 
 ```
