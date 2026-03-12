@@ -1,40 +1,93 @@
 # Total Time So far 12.5 HR
 
 
-# Date/log -  12 March, 2026 / 1.1 hr 
+# Date/log - 12 March, 2026 / 1.1 hr 
 ## CAD DESIGNING
-After everything is completed I start building the Assembly file of the project I export the 3d Model of the PCB And open it on fusion 360 
-then I Start making the case And I finally build the case <br/>
-### CASE ASSEMBLY
+After completing the PCB design I started working on the **mechanical side of the project**, which is designing the **case for the sensor**.
+First I exported the **3D model of the PCB** from the PCB software and then imported it into **Fusion 360**. This helped me design the enclosure while seeing the exact position of the components.
+
+### Case Designing Process
+While designing the case I had to consider a few things:
+- Proper **space for PCB components**
+- Mounting holes for the PCB
+- Opening for the **sensor module**
+- Enough tolerance so the PCB fits properly
+- Making the design **compact and pocket friendly**
+I started by creating a **base shell** and then slowly adjusted the internal space according to the PCB model.  
+After that I added **mounting supports** so the PCB can be fixed inside the case.
+
+One important thing I checked was the **clearance between components and case walls**, because if the tolerance is too tight it becomes difficult to assemble.
+
+### Case Assembly
+Here is the final case assembly with the PCB model inside:
+
 <img width="935" height="665" alt="image" src="https://github.com/user-attachments/assets/8b840fd2-e5a8-4b32-9b81-67730ab519b2" />
 <img width="528" height="511" alt="image" src="https://github.com/user-attachments/assets/cdd82c41-13c7-4de4-8e59-99143523da6a" />
 <img width="654" height="726" alt="image" src="https://github.com/user-attachments/assets/47f5cca4-a744-40b6-bb06-009363a3a14a" />
 
-### What I learn : 
-- How to export the 3d model 
-- Cad designing 
+### What I learned
+- How to **export a 3D PCB model**
+- How to **import PCB models into Fusion 360**
+- Basic **enclosure design workflow**
+- Importance of **tolerance and spacing in mechanical design**
 
  -----------------------------------------------------------------
 
+# Date/log - Wednesday, 11 March, 2026 / 5.6 hr 
+## Schematic + PCB Routing
+After selecting all the components for the project, I started working on the **schematic design**.  
+This step is important because it defines how every component will communicate with each other.
 
-# Date/log - wednesday, 11 March, 2026 / 5.6 hr 
-## Systematic + routing
-So after Selected all the component I start connecting the component <br/>
-### Systematic <br/>
-<img width="1190" height="845" alt="SCH_Filament runoff sensor_1-P1_2026-03-12" src="https://github.com/user-attachments/assets/0669222d-4d35-4d96-a5dd-b6252f8adb4d" /> <br/>
+### Schematic
+First I placed all the components and started connecting them according to the design logic of the filament sensor system. <br/>
+Things I connected in the schematic:
+- ESP32 MCU
+- Filament presence sensor
+- Encoder
+- Power connections
+- Required resistors and supporting components
 
-### PCB <br/>
-then Routed the PCB it ready take time cuz i want to make it compactact <br/>
+Here is the schematic:
+<img width="1190" height="845" alt="SCH_Filament runoff sensor_1-P1_2026-03-12" src="https://github.com/user-attachments/assets/0669222d-4d35-4d96-a5dd-b6252f8adb4d" />
+
+
+### PCB Layout
+After finishing the schematic, I moved to the **PCB routing stage**. <br/>
+This part took a good amount of time because I wanted the board to be **compact and clean**.  <br/>
+I tried to place the components carefully so the routing becomes easier and also the final board size stays small. <br/>
+
+While routing I tried to keep:
+
+- short trace length
+- clean routing
+- good component placement
+- compact board design
+
+Here is the PCB layout: <br/>
 <img width="621" height="590" alt="image" src="https://github.com/user-attachments/assets/f327bb87-032b-4afd-b7bd-dba2a64fd00b" />
 <img width="882" height="722" alt="image" src="https://github.com/user-attachments/assets/4eaf8852-ea10-4715-8b6d-66a52b9c04a0" />
 
-### Problems : 
-There are few component Whose symbol and footprint are not available, And many whose 3D model is not available 
-### Resolution :
- For the symbol I design the Symbol by own And for For the 3D model I Find it on grabcad website
-### What I learn :
-- How to make the own symbol
-- How to Upload and Adjust the 3D model Perfectly on the footprint 
+
+### Problems
+During the design process I faced a few problems:
+- Some components **did not have symbol in the library**
+- Some parts **did not have footprints**
+- A few components **did not have 3D models**
+This slowed down the design process a bit.
+
+### Resolution
+To solve these issues:
+- I **created custom symbols** for missing components
+- For missing **3D models**, I searched online and found suitable models from **GrabCAD**
+- Then I **aligned and adjusted the 3D models with the footprint** so they fit correctly in the PCB preview
+
+
+### What I learned
+- How to **design custom symbols for components**
+- How to **import external 3D models**
+- How to **align and adjust 3D models with PCB footprints**
+- Importance of **component placement before routing**
+
 
  -----------------------------------------------------------------
 
