@@ -3,8 +3,7 @@
 
 # Date/log - 12 March, 2026 / 1.1 hr 
 ## CAD DESIGNING
-After completing the PCB design I started working on the **mechanical side of the project**, which is designing the **case for the sensor**.
-First I exported the **3D model of the PCB** from the PCB software and then imported it into **Fusion 360**. This helped me design the enclosure while seeing the exact position of the components.
+After the Pcb Designing is Complete i jump toward the the case build part 
 
 ### Case Designing Process
 While designing the case I had to consider a few things:
@@ -16,7 +15,7 @@ While designing the case I had to consider a few things:
 I started by creating a **base shell** and then slowly adjusted the internal space according to the PCB model.  
 After that I added **mounting supports** so the PCB can be fixed inside the case.
 
-One important thing I checked was the **clearance between components and case walls**, because if the tolerance is too tight it becomes difficult to assemble.
+One important thing I checked was the **clearance between components and case walls**, because if the tolerance is too tight it becomes difficult to assemble. which i okay if you rich and have a Resin printer but for now not good for I have FDM printers then i set it 10mm  
 
 ### Case Assembly
 Here is the final case assembly with the PCB model inside:
@@ -25,24 +24,24 @@ Here is the final case assembly with the PCB model inside:
 <img width="528" height="511" alt="image" src="https://github.com/user-attachments/assets/cdd82c41-13c7-4de4-8e59-99143523da6a" />
 <img width="654" height="726" alt="image" src="https://github.com/user-attachments/assets/47f5cca4-a744-40b6-bb06-009363a3a14a" />
 
-### What I learned
-- How to **export a 3D PCB model**
+### What I learned { i know you know that but sill }
+- How to **export a 3D PCB model** 
 - How to **import PCB models into Fusion 360**
 - Basic **enclosure design workflow**
-- Importance of **tolerance and spacing in mechanical design**
+- main Importance of **tolerance and spacing in mechanical design** { Already lost tonne of filament on it }
 
  -----------------------------------------------------------------
 
 # Date/log - Wednesday, 11 March, 2026 / 5.6 hr 
 ## Schematic + PCB Routing
-After selecting all the components for the project, I started working on the **schematic design**.  
-This step is important because it defines how every component will communicate with each other.
+After selecting all the component for the project I started working on the **schematic design**.  
+This step is important because it defines how every component conneted Have a power Make your PCB insane or make a trash .
 
 ### Schematic
-First I placed all the components and started connecting them according to the design logic of the filament sensor system. <br/>
-Things I connected in the schematic:
+First I placed all the components and started connecting them according to the Desire logic accordint to DATA SHEET . <br/>
+Component I connected in the schematic:
 - ESP32 MCU
-- Filament presence sensor
+- IR sloted sensor
 - Encoder
 - Power connections
 - Required resistors and supporting components
@@ -51,8 +50,9 @@ Here is the schematic:
 <img width="1190" height="845" alt="SCH_Filament runoff sensor_1-P1_2026-03-12" src="https://github.com/user-attachments/assets/0669222d-4d35-4d96-a5dd-b6252f8adb4d" />
 
 
-### PCB Layout
-After finishing the schematic, I moved to the **PCB routing stage**. <br/>
+### PCB Routing <br/>
+Recommendation: { Take a cup of caffeine before doing }  <br/>
+After finishing the schematic I moved to the **PCB routing stage**. <br/>
 This part took a good amount of time because I wanted the board to be **compact and clean**.  <br/>
 I tried to place the components carefully so the routing becomes easier and also the final board size stays small. <br/>
 
