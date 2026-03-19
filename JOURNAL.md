@@ -1,5 +1,12 @@
 # Total Time So far 12.5 HR
 
+# Date/log - 19 March, 2026 / 1.1 hr 
+## Modification
+Sorry guys I forgot to share one more thing, I'm adding the Gripe made up of TPU To ensure that the filament not get Slip and wear tear <br/>
+Here is the image how it look With filament
+<img width="886" height="579" alt="image" src="https://github.com/user-attachments/assets/7e83ca7b-3adf-4114-8c51-71ec903bdeb1" />
+
+
 
 # Date/log - 12 March, 2026 / 1.1 hr 
 ## CAD DESIGNING
