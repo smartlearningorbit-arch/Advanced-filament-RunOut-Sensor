@@ -1,6 +1,11 @@
 # Advanced-filament-RunOut-Sensor
 <img width="935" height="665" alt="image" src="https://github.com/user-attachments/assets/b2233b12-f2bb-46f3-8386-72662646c1be" />
 
+
+# Here is the image how it look With filament
+<img width="886" height="579" alt="image" src="https://github.com/user-attachments/assets/6fb498fc-f059-4dc6-baf0-bb606e6275e5" />
+
+
 ## About the Filament Run Out Sensor
 
 This project is about making a **smart Filament Run Out Sensor** for 3D printers.<br/>
